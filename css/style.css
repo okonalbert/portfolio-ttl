@@ -1,6 +1,5 @@
 body {
-    width: 80vw;
-    margin: 0 auto;
+    margin: 0;
 }
 
 header {
@@ -10,69 +9,189 @@ header {
 
 nav {}
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-}
+nav ul {}
 
 nav li {
     list-style-type: none;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    padding: 1em;
+    font-weight: bolder;
+    color: white;
+}
+
+.phone {
+    margin-right: auto;
+}
+
 .introduce {
     display: flex;
-    flex-direction: row;
+    padding: 5em 10%;
 }
 
 .summary {
-    padding: 5em;
+    padding: 0 5em;
+    color: white;
+    font-size: 28px;
+    line-height: 2;
 }
 
 .clients {
-    border-bottom: solid 2px blue;
     text-align: center;
+    padding: 2em;
 }
 
 .clients ul {
-    padding-right: 20%;
-    padding-left: 20%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .clients li {
     list-style-type: none;
+    padding: 1em 2em;
 }
 
-.clients h1 {}
+.clients h1 {
+    font-size: 2em;
+}
 
 .profile {
+    background-color: lightgrey;
     display: flex;
-    flex-direction: row;
+    padding: 5em 10%;
 }
 
 .profile-pic {}
 
 .profile-pic>img {
     border-radius: 50%;
-    height: 15em;
+    height: 20em;
 }
 
-.skills {}
+.description {
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 0 5em;
+}
+
+.skills {
+    padding: 5em 10%;
+}
+
+.skills h1 {
+    color: dodgerblue;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skillist {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+
+.skillist div {
+    padding: 1em;
+}
+
+.skillist li {
+    padding: 0.5em 1em;
+}
 
 .testimonials {
     background-image: linear-gradient(270deg, rgba(24, 9, 97, 0.74) 0%, #1780DC 100%);
     border: 1px solid #979797;
+    padding: 3em;
+    text-align: center;
 }
 
-.portfolio {}
+.testimonials h1 {
+    padding-bottom: 2em;
+    font-size: 2em;
+    color: white;
+}
 
-.contact {}
+.portfolio {
+    padding: 5em 10%;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+
+.portfolio-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-menu li {
+    list-style-type: none;
+    border: solid 1px lightgray;
+    padding: 5px 20px;
+}
+
+.portfolio-menu li:active {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-images div {
+    margin: 1em;
+    background-color: lightgray;
+    padding-bottom: 1em;
+}
+
+.portfolio-images div:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.portfolio-desc {
+    text-align: center;
+    background-color: gray;
+    padding: 1em 0;
+}
+
+.contact {
+    text-align: center;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.contact h1 {
+    font-size: 2em;
+}
 
 .contact form {
+    flex-wrap: wrap;
+}
+
+.contact-details {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+}
+
+.contact-details div {
+    margin-bottom: 1em;
+}
+
+.contact-details button {
+    justify-content: flex-end;
 }
 
 footer {}
@@ -82,5 +201,9 @@ footer>section {}
 .social {}
 
 .pad {
-    padding: 2em 5em;
+    padding: 2em 10em;
+}
+
+.flex {
+    display: flex;
 }

@@ -6,58 +6,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Javascript -->
+    <script src="https://kit.fontawesome.com/1360da9eb9.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery & Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="pad">
+    <header>
         <section>
             <nav>
-                <ul>
-                    <li><img alt="logo"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul class="menu">
+                    <li>TechGen</li>
+                    <li>/</li>
+                    <li class="phone">Phone - 0703 249 1561</li>
                     <li>Menu</li>
-                    <li></li>
-                    <li></li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
                     <li>About</li>
+                    <li>Contact</li>
                 </ul>
             </nav>
         </section>
         <section class="introduce">
             <div class="summary">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae nostrum quaerat atque ipsum, cupiditate nemo repellat quo dolor autem provident consequatur neque. Doloribus alias qui illum quas natus iste.</h1>
+                <h1>I'm a Web Developer, and for me, things are always evolving, and such evolution is necessary.</h1>
             </div>
             <div class="profile-pic">
-                <img src="V-sign-pic.jpg">
+                <img src="images/V-sign-pic.jpg">
             </div>
         </section>
     </header>
-    <main class="pad">
+    <main>
         <section class="clients">
             <h1>I have been engaged by</h1>
             <ul>
-                <li><img alt="Techgen"></li>
-                <li><img alt="CocaCola"></li>
-                <li><img alt="Facebook"></li>
-                <li><img alt="Medium"></li>
-                <li><img alt="Google"></li>
+                <li><img src="images/Tech_Mahindra.png" alt="Tech Mahindra"></li>
+                <li><img src="images/cocaCola.png" alt="CocaCola"></li>
+                <li><img src="images/facebook.png" alt="Facebook"></li>
+                <li><img src="images/budget.png" alt="Budget"></li>
+                <li><img src="images/google.png" alt="Google"></li>
             </ul>
         </section>
         <section class="profile">
-            <div></div>
-            <div class="profile-pic"></div>
+            <div class="description">
+                <h1>So, who is Alberto Tech Gen?</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab amet ullam perspiciatis suscipit autem praesentium reiciendis obcaecati laboriosam, magnam dolores fugit porro quasi velit laborum cupiditate distinctio voluptates iure.</h3>
+            </div>
+            <div class="profile-pic"><img src="images/V-sign-pic.jpg"></div>
         </section>
-        <section class="skills"></section>
-        <section class="testimonials"></section>
-        <section class="portfolio"></section>
+        <section class="skills">
+            <h1>Skills and Technologies</h1>
+            <div class="skillist">
+                <div>
+                    <ul>
+                        <li>User Research</li>
+                        <li>Prototyping</li>
+                        <li>Micro interactions</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Userflowing</li>
+                        <li>Testing</li>
+                        <li>Coordinating with developers</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Information Architecture</li>
+                        <li>Design Systems</li>
+                        <li>HTML, CSS, SCSS, SASS, jQuery, Gulp, Grunt, Git, Bootstrap</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Wireframing</li>
+                        <li>Visual Designing</li>
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h1>Testimonials</h1>
+            <iframe width="1000" height="400" src="https://youtu.be/nqXWfXNc0gs?controls=1">
+            </iframe>
+        </section>
+        <section class="portfolio">
+            <h1>PORTFOLIO</h1>
+            <nav>
+                <ul class="portfolio-menu">
+                    <li></li>
+                    <li>ALL</li>
+                    <li>GRAPHIC</li>
+                    <li>MARKETING</li>
+                    <li>WORDPRESS</li>
+                    <li>PHOTOGRAPHY</li>
+                    <li>ICON</li>
+                    <li></li>
+                </ul>
+            </nav>
+            <div class="portfolio-images">
+                <div>
+                    <img src="images/img6.png" /><br>
+                    <span class="portfolio-desc">
+                        <h4>RUNWAY</h4>
+                        <h5>Awesome Portfolio</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="images/img4.png" />
+                    <span class="portfolio-desc">
+                        <h4>STAR COUPLES</h4>
+                        <h5>Amazing Sliders</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="images/img2.png" />
+                    <span class="portfolio-desc">
+                        <h4>STAR COUPLES</h4>
+                        <h5>Content Links</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="images/img5.png" />
+                    <span class="portfolio-desc">
+                        <h4>STREET STYLE</h4>
+                        <h5>Modern Design</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="images/img3.png" />
+                    <span class="portfolio-desc">
+                        <h4>CELEBRITY MOMS</h4>
+                        <h5>Animated Counters</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="images/img1.png" />
+                    <span class="portfolio-desc">
+                        <h4>LOOK OF THE DAY</h4>
+                        <h5>Multi Purpose</h5>
+                    </span>
+                </div>
+        </section>
         <section class="contact">
-            <form>
+            <h1>CONTACT ME</h1>
+            <form class="contact-details">
                 <div><input type="text">
                     <input type="text"></div>
                 <div><textarea></textarea></div>
